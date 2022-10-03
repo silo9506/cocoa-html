@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -20,11 +20,16 @@
 @import "screens/firends.css";
 @import "screens/login.css";
 @import "screens/more.css";
-body{
-    font-family: 'Open Sans', sans-serif;
-    color:color:#2e363e;
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
 }
-.main-screen{
-    padding:0px var(--horazontal-sapce);
+.main-screen {
+  padding: 0px var(--horazontal-sapce);
 }
 
+/* @media all and (max-width: 650px) {
+  #friends-display-link {
+    font-size: 50px;
+  }
+} */
